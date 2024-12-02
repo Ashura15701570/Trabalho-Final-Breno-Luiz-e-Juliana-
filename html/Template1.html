@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="TemplateStyle.css">
+
+    <title>ProgramaShit</title>
+</head>
+
+<body>
+    <form action="." method="get">
+        <header>
+            <div class="nomedocurriculo">
+                <input class="inputnomedocurriculo" type="text" id="nome">
+            </div>
+        </header>
+
+        <div>
+            <div class="fotocurriculo">
+                <input type="file" name="imagem" value="Incira uma imagem" id="ImgU">
+            </div>
+
+            <div class="infopessoa">
+                <h1 class="subtitulos">Descrição.</h1>
+                <br>
+                <textarea class="inputinfopessoa" name="Descrição" id="Desc"></textarea>
+                <br>
+                <h2 class="subtitulos">Experiencias profissionais.</h2>
+                <br>
+                <textarea class="inputinfopessoa" name="EsperienciasProficinais" id="EspP"></textarea>
+            </div>
+        </div>
+
+        <div class="qualidades">
+            <h3 class="subtitulos">Qualidades</h3><br>
+            <input class="inputform" type="text" name="" id="Qual">
+            <input class="definireremover" type="button" value="Definir">
+            <input class="definireremover" type="button" value="Apagar">
+        </div>
+
+        <div class="qualidades">
+            <h4 class="subtitulos">Portifolio</h4><br>
+
+            <table>
+                <tr>
+                    <td><input class="inputz" type="file" id="Por1"></td>
+                </tr>
+                <tr>
+                    <td><input class="inputz" type="file" id="Por2"></td>
+                </tr>
+                <tr>
+                    <td><input class="inputz" type="file" id="Por3"></td>
+                </tr>
+                <tr>
+                    <td><input class="inputz" type="file" id="Por4"></td>
+                </tr>
+            </table>
+        </div>
+            <table class="tabletwo">
+                <tr>
+                    <td class="subtitulos">
+                        Contatos
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="inputz" type="email" name="contatos">
+                    </td>
+                </tr>
+            </table>
+        <div>
+            <button>Concluir</button>
+        </div>
+    </form>
+</body>
+
+</html>

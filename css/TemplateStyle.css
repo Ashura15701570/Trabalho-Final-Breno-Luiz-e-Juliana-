@@ -1,0 +1,86 @@
+.nomedocurriculo
+{
+    text-align: center;
+    background-color: gray ;
+    background-size: 20px;
+    padding: 15px;
+}
+
+.fotocurriculo
+{
+    float: left;
+    padding: 40px;
+    cursor: pointer;
+}
+.inputnomedocurriculo {
+    width: 640px ;
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+    
+}
+header {
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.infopessoa {
+    text-align: left;
+    padding: 15px;
+}
+.inputinfopessoa {
+    width: 640px ;
+    height: 20px;
+    font-size: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.subtitulos {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-decoration: underline gray;
+    margin-bottom: 5px;
+    
+}
+.qualidades {
+    padding: 15px;
+}
+.inputform {
+    width: 640px ;
+    height: 20px;
+    font-size: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    
+}
+.tabletwo {
+    margin-left: 12px;
+}
+.inputz {
+    width: 320px ;
+    height: 10px;
+    font-size: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 10px;
+}
+.definireremover {
+    width: 80px ;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.botao {
+    
+}

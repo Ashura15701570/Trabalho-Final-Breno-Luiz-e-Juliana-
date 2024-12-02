@@ -1,0 +1,62 @@
+p
+{
+    padding: 20px;
+}
+
+body
+{
+    background-color: #444;
+}
+
+header
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-color: #00bb44 ;
+    padding: 20px;
+    font-style: italic;
+    color: #000;
+    
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Prin
+{
+    /*** Box style config ***/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+
+    /*** Text style config ***/
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.Sect
+{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.Sect a
+{
+    color: #fff;
+}
+
+.Sepa
+{
+    padding-bottom: 20px;
+}
